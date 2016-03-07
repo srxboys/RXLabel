@@ -1,8 +1,8 @@
-## RXLabel
-可以点击显示更多的label / label Click to show more text
+# RXLabel
+##可以点击显示更多的label / label Click to show more text
 -----
 
-#例子(如下):
+###例子(如下):
 ```objc
     RXLabel * lable = [[RXLabel alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
     lable.txt = @"srxboys\n大哉开元,元气旺盛,盛世华年,年年好运,运道齐天,天天 幸福 ,福海无边!";
@@ -30,6 +30,6 @@
     lable2.tag = 2;
     [self.view addSubview:lable2];
 ```
-#效果图(如下):
+###效果图(如下):
 -------
 ![](https://github.com/srxboys/RXLabel/blob/master/iOS_label.gif)
