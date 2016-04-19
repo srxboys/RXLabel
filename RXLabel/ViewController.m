@@ -120,7 +120,7 @@
     
     UIAlertTool * alert = [[UIAlertTool alloc] init];
     
-//   [alert showAlertView:self title:@"您点击了" message:message cancelButtonTitle:@"取消" otherButtonTitle:nil];
+   [alert showAlertView:self title:@"您点击了" message:message cancelButtonTitle:@"取消" otherButtonTitle:nil];
     
 }
 
