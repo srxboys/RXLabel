@@ -72,5 +72,5 @@
 ```
 ###效果图(如下):
 ---
-![](https://github.com/srxboys/RXLabel/blob/master/RXLabel.gif)(https://github.com/srxboys/RXLabel/blob/master/RXLabel_2.gif)
+![](https://github.com/srxboys/RXLabel/blob/master/RXLabel.gif,https://github.com/srxboys/RXLabel/blob/master/RXLabel_2.gif)
 
