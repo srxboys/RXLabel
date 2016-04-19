@@ -58,11 +58,11 @@
 
     /**
     **** 新增属性 / Add attribute
-    * 1、txt 改为 text /  txt --change name--> text
-    * 2、新增 isAutoSize / new attribute -> isAutoSize
-    * 3、新增 lineSpacing / new attribute -> lineSpacing
-    * 4、新增 pinchedHeight / new attribute -> pinchedHeight
-    * 5、新增 unfurlHeight / new attribute -> unfurlHeight
+    * 1、txt 改为 text      /  txt --change name--> text
+    * 2、新增 isAutoSize    /  new attribute -> isAutoSize
+    * 3、新增 lineSpacing   /  new attribute -> lineSpacing
+    * 4、新增 pinchedHeight /  new attribute -> pinchedHeight
+    * 5、新增 unfurlHeight  /  new attribute -> unfurlHeight
     */
     //初始高度【isAutoSize == YES 会改变原始高度】
     CGFloat HighHeight = label3.pinchedHeight;
