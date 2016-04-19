@@ -73,3 +73,6 @@
 ###效果图(如下):
 ---
 ![](https://github.com/srxboys/RXLabel/blob/master/RXLabel.gif)
+---
+###查看新属性 效果图(如下):
+![](https://github.com/srxboys/RXLabel/blob/master/RXLabel_2.gif)
