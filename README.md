@@ -4,8 +4,7 @@
 >没有底层的知识 一看就明白，由于需求不同 属性就多了些
 
 ---
-#Examples
-###例子(如下):
+###例子(如下): / Examples
 ```objc
     //默认样式
     RXLabel * lable = [[RXLabel alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
