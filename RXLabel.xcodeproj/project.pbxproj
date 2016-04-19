@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CF0A8571CC5F18B004576E5 /* UIAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0A8561CC5F18B004576E5 /* UIAlertTool.m */; };
 		CF156D9D1C8C2F6700B00BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF156D9C1C8C2F6700B00BA6 /* main.m */; };
 		CF156DA01C8C2F6700B00BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF156D9F1C8C2F6700B00BA6 /* AppDelegate.m */; };
 		CF156DA31C8C2F6700B00BA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF156DA21C8C2F6700B00BA6 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6CF0A8551CC5F18B004576E5 /* UIAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertTool.h; sourceTree = "<group>"; };
+		6CF0A8561CC5F18B004576E5 /* UIAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertTool.m; sourceTree = "<group>"; };
 		CF156D981C8C2F6700B00BA6 /* RXLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF156D9C1C8C2F6700B00BA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF156D9E1C8C2F6700B00BA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 			children = (
 				CF156DB21C8C2F8200B00BA6 /* RXLabel.h */,
 				CF156DB31C8C2F8200B00BA6 /* RXLabel.m */,
+				6CF0A8551CC5F18B004576E5 /* UIAlertTool.h */,
+				6CF0A8561CC5F18B004576E5 /* UIAlertTool.m */,
 				CF156D9E1C8C2F6700B00BA6 /* AppDelegate.h */,
 				CF156D9F1C8C2F6700B00BA6 /* AppDelegate.m */,
 				CF156DA11C8C2F6700B00BA6 /* ViewController.h */,
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF0A8571CC5F18B004576E5 /* UIAlertTool.m in Sources */,
 				CF156DA31C8C2F6700B00BA6 /* ViewController.m in Sources */,
 				CF156DA01C8C2F6700B00BA6 /* AppDelegate.m in Sources */,
 				CF156DB41C8C2F8200B00BA6 /* RXLabel.m in Sources */,
@@ -267,10 +273,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yaojin Dou (HK9KZR5X5Z)";
 				INFOPLIST_FILE = RXLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = srxboys.RXLabel;
+				PRODUCT_BUNDLE_IDENTIFIER = net.ghs.app.RXLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0af056dd-6b33-4100-869d-32cbc8303269";
 			};
 			name = Debug;
 		};
@@ -279,8 +288,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RXLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = srxboys.RXLabel;
+				PRODUCT_BUNDLE_IDENTIFIER = net.ghs.app.RXLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -304,6 +314,7 @@
 				CF156DB11C8C2F6700B00BA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
