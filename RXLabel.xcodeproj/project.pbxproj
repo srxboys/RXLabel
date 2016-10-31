@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C1046C41DC71C6400B66680 /* RXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1046C31DC71C6400B66680 /* RXLabel.m */; };
 		6CF0A8571CC5F18B004576E5 /* UIAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF0A8561CC5F18B004576E5 /* UIAlertTool.m */; };
 		CF156D9D1C8C2F6700B00BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF156D9C1C8C2F6700B00BA6 /* main.m */; };
 		CF156DA01C8C2F6700B00BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF156D9F1C8C2F6700B00BA6 /* AppDelegate.m */; };
@@ -14,10 +15,11 @@
 		CF156DA61C8C2F6700B00BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF156DA41C8C2F6700B00BA6 /* Main.storyboard */; };
 		CF156DA81C8C2F6700B00BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF156DA71C8C2F6700B00BA6 /* Assets.xcassets */; };
 		CF156DAB1C8C2F6700B00BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF156DA91C8C2F6700B00BA6 /* LaunchScreen.storyboard */; };
-		CF156DB41C8C2F8200B00BA6 /* RXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CF156DB31C8C2F8200B00BA6 /* RXLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C1046C21DC71C6400B66680 /* RXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXLabel.h; sourceTree = "<group>"; };
+		6C1046C31DC71C6400B66680 /* RXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXLabel.m; sourceTree = "<group>"; };
 		6CF0A8551CC5F18B004576E5 /* UIAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertTool.h; sourceTree = "<group>"; };
 		6CF0A8561CC5F18B004576E5 /* UIAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertTool.m; sourceTree = "<group>"; };
 		CF156D981C8C2F6700B00BA6 /* RXLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,8 +32,6 @@
 		CF156DA71C8C2F6700B00BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF156DAA1C8C2F6700B00BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF156DAC1C8C2F6700B00BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF156DB21C8C2F8200B00BA6 /* RXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXLabel.h; sourceTree = "<group>"; };
-		CF156DB31C8C2F8200B00BA6 /* RXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 		CF156D9A1C8C2F6700B00BA6 /* RXLabel */ = {
 			isa = PBXGroup;
 			children = (
-				CF156DB21C8C2F8200B00BA6 /* RXLabel.h */,
-				CF156DB31C8C2F8200B00BA6 /* RXLabel.m */,
+				6C1046C21DC71C6400B66680 /* RXLabel.h */,
+				6C1046C31DC71C6400B66680 /* RXLabel.m */,
 				6CF0A8551CC5F18B004576E5 /* UIAlertTool.h */,
 				6CF0A8561CC5F18B004576E5 /* UIAlertTool.m */,
 				CF156D9E1C8C2F6700B00BA6 /* AppDelegate.h */,
@@ -161,8 +161,8 @@
 			files = (
 				6CF0A8571CC5F18B004576E5 /* UIAlertTool.m in Sources */,
 				CF156DA31C8C2F6700B00BA6 /* ViewController.m in Sources */,
+				6C1046C41DC71C6400B66680 /* RXLabel.m in Sources */,
 				CF156DA01C8C2F6700B00BA6 /* AppDelegate.m in Sources */,
-				CF156DB41C8C2F8200B00BA6 /* RXLabel.m in Sources */,
 				CF156D9D1C8C2F6700B00BA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
