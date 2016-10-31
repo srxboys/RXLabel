@@ -1,5 +1,5 @@
 
-The MIT License (MIT)
+The MIT License (MIT) RXLabel
 
 Copyright (c) 2016 srxboy
 

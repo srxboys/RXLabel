@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.summary      = 'label Click to show more text'
   s.platform     =  :ios
   s.source       =  {:git => 'https://github.com/srxboys/RXLabel.git', :tag => s.version}
-  s.source_files = 'RXLabelView/*.{h,m}'
+  s.source_files = 'RXLabel/RXLabel.{h,m}'
   s.requires_arc = true
 end
