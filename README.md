@@ -82,7 +82,7 @@
 -
 
 ###用于项目 GHS<br>
-鲨鱼`玩家信息`描述<br>
+鲨鱼`玩家信息`:`描述`、`评论`<br>
 
 ![srxboys_ghs](https://github.com/srxboys/RXExtenstion/blob/master/srxboys/label/srxboys_UILabel3.gif)
 
