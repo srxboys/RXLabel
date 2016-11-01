@@ -79,3 +79,9 @@
 ---
 ![srxboys](https://github.com/srxboys/RXLabel/blob/master/RXLabel.gif)  ![srxboys](https://github.com/srxboys/RXLabel/blob/master/RXLabel_2.gif)
 
+-
+
+用于项目 GHS
+鲨鱼玩家信息描述
+![srxboys_ghs]（https://github.com/srxboys/RXExtenstion/blob/master/srxboys/label/srxboys_UILabel3.gif）
+
