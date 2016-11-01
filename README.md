@@ -81,7 +81,8 @@
 
 -
 
-用于项目 GHS
-鲨鱼玩家信息描述
-![srxboys_ghs]（https://github.com/srxboys/RXExtenstion/blob/master/srxboys/label/srxboys_UILabel3.gif）
+###用于项目 GHS<br>
+鲨鱼`玩家信息`描述<br>
+
+![srxboys_ghs](https://github.com/srxboys/RXExtenstion/blob/master/srxboys/label/srxboys_UILabel3.gif)
 
